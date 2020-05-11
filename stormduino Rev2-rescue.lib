@@ -1,41 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_MountingPin_Conn_01x06_MountingPin
+# +3.3V-power
 #
-DEF Connector_Generic_MountingPin_Conn_01x06_MountingPin J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Generic_MountingPin_Conn_01x06_MountingPin" 50 -400 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??-1MP*
-$ENDFPLIST
-DRAW
-T 0 0 -365 15 0 1 1 Mounting Normal 0 C C
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-P 2 1 1 6 -40 -380 40 -380 N
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-X MountPin MP 0 -500 120 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# stormduino-Rev2-rescue_+3.3V-power
-#
-DEF stormduino-Rev2-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stormduino-Rev2-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_+5V-power
+# +5V-power
 #
-DEF stormduino-Rev2-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stormduino-Rev2-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -61,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_AMS1117-3.3-Regulator_Linear
+# AMS1117-3.3-Regulator_Linear
 #
-DEF stormduino-Rev2-rescue_AMS1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AMS1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "stormduino-Rev2-rescue_AMS1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
+F1 "AMS1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
 F3 "" 100 -250 50 H I C CNN
 $FPLIST
@@ -79,11 +49,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_AMS1117-5.0-Regulator_Linear
+# AMS1117-5.0-Regulator_Linear
 #
-DEF stormduino-Rev2-rescue_AMS1117-5.0-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AMS1117-5.0-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "stormduino-Rev2-rescue_AMS1117-5.0-Regulator_Linear" 0 125 50 H V L CNN
+F1 "AMS1117-5.0-Regulator_Linear" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
 F3 "" 100 -250 50 H I C CNN
 $FPLIST
@@ -97,11 +67,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_ATmega328P-PU-MCU_Microchip_ATmega
+# ATmega328P-PU-MCU_Microchip_ATmega
 #
-DEF stormduino-Rev2-rescue_ATmega328P-PU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
+DEF ATmega328P-PU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
 F0 "U" -500 1450 50 H V L BNN
-F1 "stormduino-Rev2-rescue_ATmega328P-PU-MCU_Microchip_ATmega" 100 -1450 50 H V L TNN
+F1 "ATmega328P-PU-MCU_Microchip_ATmega" 100 -1450 50 H V L TNN
 F2 "Package_DIP:DIP-28_W7.62mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -140,11 +110,11 @@ X XTAL1/PB6 9 600 600 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_BS250-Transistor_FET
+# BS250-Transistor_FET
 #
-DEF stormduino-Rev2-rescue_BS250-Transistor_FET Q 0 20 Y N 1 F N
+DEF BS250-Transistor_FET Q 0 20 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "stormduino-Rev2-rescue_BS250-Transistor_FET" 200 0 50 H V L CNN
+F1 "BS250-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -171,11 +141,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_C-Device
+# C-Device
 #
-DEF stormduino-Rev2-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "stormduino-Rev2-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -189,11 +159,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_CH340G-Interface_USB
+# CH340G-Interface_USB
 #
-DEF stormduino-Rev2-rescue_CH340G-Interface_USB U 0 20 Y Y 1 F N
+DEF CH340G-Interface_USB U 0 20 Y Y 1 F N
 F0 "U" -200 550 50 H V R CNN
-F1 "stormduino-Rev2-rescue_CH340G-Interface_USB" 50 550 50 H V L CNN
+F1 "CH340G-Interface_USB" 50 550 50 H V L CNN
 F2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" 50 -550 50 H I L CNN
 F3 "" -350 800 50 H I C CNN
 $FPLIST
@@ -220,11 +190,11 @@ X ~CTS 9 400 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_CP-Device
+# CP-Device
 #
-DEF stormduino-Rev2-rescue_CP-Device C 0 10 N Y 1 F N
+DEF CP-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "stormduino-Rev2-rescue_CP-Device" 25 -100 50 H V L CNN
+F1 "CP-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -240,11 +210,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Conn_01x04_MountingPin-Connector_Generic_MountingPin
+# Conn_01x04_MountingPin-Connector_Generic_MountingPin
 #
-DEF stormduino-Rev2-rescue_Conn_01x04_MountingPin-Connector_Generic_MountingPin J 0 40 Y N 1 F N
+DEF Conn_01x04_MountingPin-Connector_Generic_MountingPin J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "stormduino-Rev2-rescue_Conn_01x04_MountingPin-Connector_Generic_MountingPin" 50 -300 50 H V L CNN
+F1 "Conn_01x04_MountingPin-Connector_Generic_MountingPin" 50 -300 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -266,11 +236,11 @@ X MountPin MP 0 -400 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Conn_01x06_MountingPin-Connector_Generic_MountingPin
+# Conn_01x06_MountingPin-Connector_Generic_MountingPin
 #
-DEF stormduino-Rev2-rescue_Conn_01x06_MountingPin-Connector_Generic_MountingPin J 0 40 Y N 1 F N
+DEF Conn_01x06_MountingPin-Connector_Generic_MountingPin J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "stormduino-Rev2-rescue_Conn_01x06_MountingPin-Connector_Generic_MountingPin" 50 -400 50 H V L CNN
+F1 "Conn_01x06_MountingPin-Connector_Generic_MountingPin" 50 -400 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -296,11 +266,11 @@ X MountPin MP 0 -500 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Conn_01x08_MountingPin-Connector_Generic_MountingPin
+# Conn_01x08_MountingPin-Connector_Generic_MountingPin
 #
-DEF stormduino-Rev2-rescue_Conn_01x08_MountingPin-Connector_Generic_MountingPin J 0 40 Y N 1 F N
+DEF Conn_01x08_MountingPin-Connector_Generic_MountingPin J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "stormduino-Rev2-rescue_Conn_01x08_MountingPin-Connector_Generic_MountingPin" 50 -500 50 H V L CNN
+F1 "Conn_01x08_MountingPin-Connector_Generic_MountingPin" 50 -500 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -330,11 +300,11 @@ X MountPin MP 0 -600 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Conn_01x10_MountingPin-Connector_Generic_MountingPin
+# Conn_01x10_MountingPin-Connector_Generic_MountingPin
 #
-DEF stormduino-Rev2-rescue_Conn_01x10_MountingPin-Connector_Generic_MountingPin J 0 40 Y N 1 F N
+DEF Conn_01x10_MountingPin-Connector_Generic_MountingPin J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "stormduino-Rev2-rescue_Conn_01x10_MountingPin-Connector_Generic_MountingPin" 50 -600 50 H V L CNN
+F1 "Conn_01x10_MountingPin-Connector_Generic_MountingPin" 50 -600 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -368,11 +338,11 @@ X MountPin MP 0 -700 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Conn_02x03_Odd_Even-Connector_Generic
+# Conn_02x03_Odd_Even-Connector_Generic
 #
-DEF stormduino-Rev2-rescue_Conn_02x03_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x03_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "stormduino-Rev2-rescue_Conn_02x03_Odd_Even-Connector_Generic" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even-Connector_Generic" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -395,11 +365,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Crystal-Device
+# Crystal-Device
 #
-DEF stormduino-Rev2-rescue_Crystal-Device Y 0 40 N N 1 F N
+DEF Crystal-Device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "stormduino-Rev2-rescue_Crystal-Device" 0 -150 50 H V C CNN
+F1 "Crystal-Device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -416,11 +386,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_DIODE-pspice
+# DIODE-pspice
 #
-DEF stormduino-Rev2-rescue_DIODE-pspice D 0 40 Y N 1 F N
+DEF DIODE-pspice D 0 40 Y N 1 F N
 F0 "D" 0 150 50 H V C CNN
-F1 "stormduino-Rev2-rescue_DIODE-pspice" 0 -175 50 H V C CNN
+F1 "DIODE-pspice" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -431,11 +401,11 @@ X A 2 200 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Fuse-Device
+# Fuse-Device
 #
-DEF stormduino-Rev2-rescue_Fuse-Device F 0 0 N Y 1 F N
+DEF Fuse-Device F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "stormduino-Rev2-rescue_Fuse-Device" -75 0 50 V V C CNN
+F1 "Fuse-Device" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -449,11 +419,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_GND-power
+# GND-power
 #
-DEF stormduino-Rev2-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "stormduino-Rev2-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -462,11 +432,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Jack-DC-Connector
+# Jack-DC-Connector
 #
-DEF stormduino-Rev2-rescue_Jack-DC-Connector J 0 40 Y Y 1 F N
+DEF Jack-DC-Connector J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "stormduino-Rev2-rescue_Jack-DC-Connector" 0 -200 50 H V C CNN
+F1 "Jack-DC-Connector" 0 -200 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
 $FPLIST
@@ -484,11 +454,11 @@ X ~ 2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_LED-Device
+# LED-Device
 #
-DEF stormduino-Rev2-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "stormduino-Rev2-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -507,11 +477,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_LM358-Amplifier_Operational
+# LM358-Amplifier_Operational
 #
-DEF stormduino-Rev2-rescue_LM358-Amplifier_Operational U 0 5 Y Y 3 L N
+DEF LM358-Amplifier_Operational U 0 5 Y Y 3 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "stormduino-Rev2-rescue_LM358-Amplifier_Operational" 0 -200 50 H V L CNN
+F1 "LM358-Amplifier_Operational" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -541,11 +511,11 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_Logo_Open_Hardware_Small-Graphic
+# Logo_Open_Hardware_Small-Graphic
 #
-DEF stormduino-Rev2-rescue_Logo_Open_Hardware_Small-Graphic #LOGO 0 40 Y Y 1 F N
+DEF Logo_Open_Hardware_Small-Graphic #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 275 50 H I C CNN
-F1 "stormduino-Rev2-rescue_Logo_Open_Hardware_Small-Graphic" 0 -225 50 H I C CNN
+F1 "Logo_Open_Hardware_Small-Graphic" 0 -225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -553,11 +523,11 @@ P 277 0 1 0 132 -171 130 -170 125 -167 118 -162 109 -156 100 -150 93 -146 88 -14
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_R-Device
+# R-Device
 #
-DEF stormduino-Rev2-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "stormduino-Rev2-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -570,11 +540,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_SW_Push-Switch
+# SW_Push-Switch
 #
-DEF stormduino-Rev2-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "stormduino-Rev2-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -587,11 +557,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# stormduino-Rev2-rescue_USB_C_Receptacle_USB2.0-Connector
+# USB_C_Receptacle_USB2.0-Connector
 #
-DEF stormduino-Rev2-rescue_USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
+DEF USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
 F0 "J" -400 750 50 H V L CNN
-F1 "stormduino-Rev2-rescue_USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
+F1 "USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
