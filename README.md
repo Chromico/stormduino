@@ -16,6 +16,18 @@ My website: https://tecknologg.website
 ![picture](https://github.com/Chromico/stormduino/blob/master/2.PNG)
 
 
+# Assembled board
+
+
+![picture](https://github.com/Chromico/stormduino/blob/master/_DSC0983.JPG)
+
+
+# Features
+
+
+![picture](https://github.com/Chromico/stormduino/blob/master/stormduino-features.png)
+
+
 # Contact
 
 Need to contact me ? Just send me an email at nathan@tecknologg.website or tecknologg@gmail.com
