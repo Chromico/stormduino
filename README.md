@@ -3,6 +3,7 @@ An open source arduino uno clone designed in KiCad in collaboration with tecknol
 
 My website: https://tecknologg.website
 
+Blog post: https://tecknologg.website/2020/02/02/stormduino-the-arduino-compatible-board-made-in-kicad/
 
 # Front 
 
@@ -27,6 +28,9 @@ My website: https://tecknologg.website
 
 ![picture](https://github.com/Chromico/stormduino/blob/master/stormduino-features.png)
 
+
+# Documentation
+You can get the official documentation for stormduino here: https://github.com/Chromico/stormduino/blob/master/documentation.pdf
 
 # Contact
 
