@@ -35,7 +35,7 @@ You can get the official documentation for stormduino here: https://github.com/C
 # Certification
 As from 2020 Stormduino has the open source hardware certfication to show you that Stormduino is truely open source hardware.
 
-![picture](https://github.com/Chromico/stormduino/blob/master/oshwa-stormduino%20(2).png)
+![picture](https://github.com/Chromico/stormduino/blob/master/oshwa-mark-stormduino.png)
 
 
 # Contact
