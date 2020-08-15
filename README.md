@@ -33,7 +33,7 @@ Blog post: https://tecknologg.website/2020/02/02/stormduino-the-arduino-compatib
 You can get the official documentation for stormduino here: https://github.com/Chromico/stormduino/blob/master/documentation.pdf
 
 # Certification
-As from 2020 Stormduino has the open source hardware certfication to show you that Stormduino is truely open source hardware.
+As from 2020 Stormduino has the open source hardware certfication to show you that Stormduino is truly open source hardware.
 
 ![picture](https://github.com/Chromico/stormduino/blob/master/oshwa-mark-stormduino.png)
 
